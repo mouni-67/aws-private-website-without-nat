@@ -1,0 +1,18 @@
+                    Internet
+                        |
+                Internet Gateway
+                        |
+                Public Subnet
+                -------------
+                |           |
+        Linux EC2      Windows EC2
+        (Website)      (Bastion Host)
+                |
+        Create Custom AMI
+                |
+                v
+
+                Private Subnet
+                --------------
+                Private EC2
+            (Created from AMI)
